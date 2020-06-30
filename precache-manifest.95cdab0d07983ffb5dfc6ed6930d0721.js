@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "423ea40f5c8f362ab39c4fc3d6105fdb",
+    "revision": "13b9aa091440686a2bd3def3f4c8a0dd",
     "url": "/vers-de-ter-front/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vers-de-ter-front/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "10354a6d2cf02dfff891",
+    "revision": "21cdfe953bcf7bfbfb67",
     "url": "/vers-de-ter-front/static/css/main.e492cc87.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vers-de-ter-front/static/js/2.5f79261c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10354a6d2cf02dfff891",
-    "url": "/vers-de-ter-front/static/js/main.9d63201e.chunk.js"
+    "revision": "21cdfe953bcf7bfbfb67",
+    "url": "/vers-de-ter-front/static/js/main.e5a4a03a.chunk.js"
   },
   {
     "revision": "47afc9e27d537a737ee4",
