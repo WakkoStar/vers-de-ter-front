@@ -23,7 +23,7 @@ Ici se trouve tout les éléments visibles sur le site lesvertsdeter.fr
 
 ### Plugins
 
-![un texte alternatif ici](https://admin.lesvertsdeter.fr/uploads/maxresdefault_06614095a5.jpeg)
+![un texte alternatif ici](https://admin.lesvertsdeter.fr/uploads/medialibrary_6e8cee26ec.png)
 
 - **Média library** est l'endroit ou se trouve tout tes médias ( oui faut pas etre con non plus ). Concrètement, les photos utilisés dans tes articles se trouveront ici.
 - *Content type builder => on s'en fout ( sert à modifier les collections types )*
