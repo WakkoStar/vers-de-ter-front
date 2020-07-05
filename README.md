@@ -4,6 +4,8 @@
 
 Accéder au site https://admin.lesvertsdeter.fr/dashboard et se connecter les identifiants. Garder le lien en favori. Une fois connecté vous accéder au panel d'administration.
 
+Je te conseille de suivre ce tutoriel en ayant l'onglet du dashboard juste à coté pour tester les fonctionnalités.
+
 
 ## Description de l'interface
 
