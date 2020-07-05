@@ -71,7 +71,7 @@ Les rubriques contiennent donc des posts, ils contiennent donc les articles comp
 
 #### - Titres
 
-Les titres vont jusqu'à 3 hashtags ( je n'ai pas fait plus bas ). Pensez bien à séparer les hashtags et le texte d'un espace.
+Les titres vont jusqu'à 3 hashtags ( je n'ai pas fait plus bas ). Pensez bien à séparer les hashtags et le texte d'un espace. Il est conesillé d'appuyer sur prévisualisation si l'article correspond à ce que vous faites.
 
 #### - Paragraphe
 
