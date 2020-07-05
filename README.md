@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LES VERTS DE TER - DASHBOARD
 
-## Available Scripts
+## Se connecter au dashboard
 
-In the project directory, you can run:
+Acéder au site https://admin.lesvertsdeter.fr/dashboard et se connecter les identifiants. Garder le lien en favori. Une fois connecté vous accéder au panel d'administration.
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description de l'interface
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Sur la gauche, vous avez une section avec une multitude de parties contenant des liens.
 
-### `yarn test`
+### Collections types
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ici se trouve tout les éléments visibles sur le site lesvertsdeter.fr
+- **Rubriques** sont les différents sections de votre site où les articles se trouvent
+- **Categories** sont les regroupements de rubriques. Autrement dit, les rubriques sont un sous ensemble d'une catégorie. Par exemple la catégorie "Manger" comprend les rubriques "Restaurants" et "Fast-Food".
+- **Posts** sont tous les articles que vous postez sur le site lié aux rubriques 
+- *Utilisateur => on s'en fout*
 
-### `yarn build`
+### Plugins
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Média library** est l'endroit ou se trouve tout tes médias ( oui faut pas etre con non plus ). Concrètement, les photos utilisés dans tes articles se trouveront ici.
+- *Content type builder => on s'en fout ( sert à modifier les collections types )*
+- *Rôles et autorisations => pas besoin d'y toucher*
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Général => on s'en fout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Les catégories
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Propriétés de catégories 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Les catégories vont te permettre de regrouper les rubriques pour faire de jolis petit onglets sur le site.
+- **Nom**
+- **Position** : pour pourvoir donner la position sur le site que tu veux )
+- **Rubriques** : Tu peux ajouter, supprimer des rubriques depuis ici
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Ajouter une catégorie
+Un petit bouton se trouve ici pour ajouter une catégorie
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Modifier une catégorie
+Chaque catégorie dispose d'un droit de modification, la suppression se trouve juste à coté.
 
-## Learn More
+#### Rendre ma catégorie invisible
+La supprimer ( cela ne supprimera rien d'autre )
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Les rubriques
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Propriété de rubriques
 
-### Code Splitting
+Chaque catégorie contient une ribambelle de rubriques et sont composés ainsi :
+- **Nom** 
+- **Cheminots** détermine si les posts sur cette rubrique ne sont disponible que pour les cheminots.
+> **/!\ /!\ Si la rubrique est accessible pour tout le monde veuillez sélectionner "cheminots ON" puis "cheminots OFF" pour que la valeur soit bien mise, sinon tout les articles de la rubriques seront INVISIBLE sur le site**
+- **Category** permet de sélectionner la catégorie à attribuer. N'oubliez pas de le faire sinon la rubrique ne sera pas affiché sur le site !
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### Détails
+Ajouter,  modifier et suprimer se font toujours de la même manière. Pour rendre invisible une rubrique, laisser le champ **Category** vide.
 
-### Analyzing the Bundle Size
+## Les posts
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Propriété de posts
 
-### Making a Progressive Web App
+Les rubriques contiennent donc des posts, ils contiennent donc les articles composés de :
+- **Titre** de l'article
+- **Description** autrement dit le contenu quoi
+- **Gallerie** est le diaporama d'images en début d'article ( une image au moins est obligatoire )
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Créer du contenu 
+##### Titres
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+#### Détails
+Ajouter,  modifier et suprimer se font toujours de la même manière. Pour rendre invisible une rubrique, laisser le champ **Category** vide.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
