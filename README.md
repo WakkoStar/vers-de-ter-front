@@ -63,7 +63,7 @@ La supprimer ( cela ne supprimera rien d'autre )
 ### Propriété de rubriques
 
 Chaque catégorie contient une ribambelle de rubriques et sont composés ainsi :
-- **Nom** 
+- **Nom** fait un nom SIMPLE (c'est a dire éviter les caractères du styles */:"°!§;, et j'en passe, tu mets UN MOT et basta )
 - **Cheminots** détermine si les posts sur cette rubrique ne sont disponible que pour les cheminots.
 > **/!\ /!\ Si la rubrique est accessible pour tout le monde veuillez sélectionner "cheminots ON" puis "cheminots OFF" pour que la valeur soit bien mise, sinon tout les articles de la rubriques seront INVISIBLE sur le site**
 - **Category** permet de sélectionner la catégorie à attribuer. N'oubliez pas de le faire sinon la rubrique ne sera pas affiché sur le site !
