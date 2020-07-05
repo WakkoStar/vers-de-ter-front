@@ -65,12 +65,31 @@ Les rubriques contiennent donc des posts, ils contiennent donc les articles comp
 - **Titre** de l'article
 - **Description** autrement dit le contenu quoi
 - **Gallerie** est le diaporama d'images en début d'article ( une image au moins est obligatoire )
+- **Rubriques** est la rubrique accroché au poste, ne l'oubliez pas sinon le poste est invisible !
 
 ### Créer du contenu 
-##### Titres
 
+#### - Titres
 
+Les titres vont jusqu'à 3 hashtags ( je n'ai pas fait plus bas ). Pensez bien à séparer les hashtags et le texte d'un espace.
 
-#### Détails
+#### - Paragraphe
+
+- Le gras se fait avec deux astérisques.
+- Les liens : entre crochets se trouve un texte qui sera cliquable sur l'article. Entre parenthèses c'est le lien.
+- Les listes se font avec des tirets
+- Une citation se fait avec le signe supérieur
+
+#### - Images
+
+Les images s'intègrent de la même manière qu'un lien. Un texte alternatif entre crochets (si par exemple l'image ne se charge pas) et entre parenthèses le lien du fichier.
+Soit vous ajoutez une image de la gallerie soit vous pouvez la prendre directement d'un site.
+
+#### - En résumé
+
+Le système d'écriture est du markdown, tout est dit sur internet si vous voulez plus d'infos.
+
+#### - Détails
+
 Ajouter,  modifier et suprimer se font toujours de la même manière. Pour rendre invisible une rubrique, laisser le champ **Category** vide.
 
