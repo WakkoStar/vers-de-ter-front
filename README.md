@@ -36,7 +36,7 @@ Les catégories vont te permettre de regrouper les rubriques pour faire de jolis
 - **Rubriques** : Tu peux ajouter, supprimer des rubriques depuis ici
 
 ### Ajouter une catégorie
-Un petit bouton se trouve ici pour ajouter une catégorie
+Un petit bouton se trouve en haut, à droite pour ajouter une catégorie
 
 ### Modifier une catégorie
 Chaque catégorie dispose d'un droit de modification, la suppression se trouve juste à coté.
